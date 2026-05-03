@@ -1,0 +1,10 @@
+{
+  "name": "JFT-A2 Exam Master",
+  "description": "A professional practice and study platform for the JFT-A2 Japanese Foundation Test, featuring real-world scenarios, grammar drills, and AI-powered explanations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "Japanese Language Learning",
+    "Exam Simulation",
+    "AI Tutoring"
+  ]
+}

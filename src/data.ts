@@ -1,0 +1,70 @@
+import { Question } from './types';
+
+export const QUESTIONS: Question[] = [
+  {
+    id: 's1',
+    category: 'script',
+    question: '「駅の前に高いビルがあります。」の「高い」の読み方はどれですか。',
+    options: ['ひくい', 'あかるい', 'たかい', 'わかい'],
+    correctAnswer: 2,
+    explanation: '「高い」は「たかい」と読みます。意味は "expensive" または "tall" です。',
+  },
+  {
+    id: 'g1',
+    category: 'grammar',
+    question: '田中さん（　）公園で散歩しています。',
+    options: ['を', 'へ', 'は', 'は'],
+    correctAnswer: 2,
+    explanation: '主語を示す助詞「は」が使われます。',
+  },
+  {
+    id: 'r1',
+    category: 'reading',
+    context: '【お知らせ】\n来週の月曜日は祝日なので、図書館は休みです。火曜日から金曜日までは午前9時から午後7時まで開いています。',
+    question: '来週の月曜日に図書館へ行くことができますか。',
+    options: ['はい、午前9時から行けます。', 'いいえ、休みです。', 'はい、午後7時まで行けます。', 'いいえ、金曜日から行けます。'],
+    correctAnswer: 1,
+    explanation: '「来週の月曜日は祝日なので、図書館は休みです」と書いてあります。',
+  },
+  {
+    id: 's2',
+    category: 'script',
+    question: '「昨日、新しい本を買いました。」の「新しい」の読み方はどれですか。',
+    options: ['あたらしい', 'ふるい', 'さびしい', 'いそがしい'],
+    correctAnswer: 0,
+    explanation: '「新しい」は「あたらしい」と読みます。',
+  },
+  {
+    id: 'g2',
+    category: 'grammar',
+    question: 'すみません、このペン（　）貸してください。',
+    options: ['を', 'に', 'が', 'と'],
+    correctAnswer: 0,
+    explanation: '目的語を示す助詞「を」を使います。',
+  },
+  {
+    id: 'l1',
+    category: 'listening',
+    context: '【音声：駅の放送】\n「次は新宿、新宿です。出口は左側です。お忘れ物のないよう、ご注意ください。」',
+    question: '出口はどちら側ですか。',
+    options: ['右側', '左側', '両側', 'どちらでもない'],
+    correctAnswer: 1,
+    explanation: '放送で「出口は左側です」と言っています。',
+  },
+  {
+    id: 'g3',
+    category: 'grammar',
+    question: '日本へ（　）とき、富士山を見ました。',
+    options: ['くる', 'きて', 'きた', 'きている'],
+    correctAnswer: 2,
+    explanation: '富士山を見たのは過去のことなので、「きた（過去形）」を使います。',
+  },
+  {
+    id: 's3',
+    category: 'script',
+    question: '「この料理はとてもおいしいです。」の「料理」の読み方はどれですか。',
+    options: ['りょこう', 'りょうり', 'ろうか', 'りょうりょく'],
+    correctAnswer: 1,
+    explanation: '「料理」は「りょうり」と読みます。',
+  }
+];
